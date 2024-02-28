@@ -1,0 +1,476 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+}
+.main-container{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+
+.logo-container{
+    background:#fff;
+    min-height:100vh;
+    width:10vw;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.07);
+}
+.logo-container .logo{
+    display: flex;
+    justify-content:center;
+    gap:1.2rem;
+    align-items:center;
+    gap:1.1rem;
+    margin-top:1.1rem;
+}
+.logo-container .profile{
+    height:40px;
+    width:40px;
+    border-radius:20px;
+}
+.logo-container  .logo-name{
+    font-size:32px;
+}
+.user-profile-container{
+    display: flex;
+    flex-direction:column;
+        justify-content:space-between;
+        align-items:center;
+        gap:10.6rem;
+}
+nav .user-container .bid-itemss {
+
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        gap:1.2rem;
+        align-items:center;
+        margin-top:3.1rem;
+        list-style-type: none;
+}
+.bid-itemss .bid{
+    background: #475569;
+    height:30px;
+    width:182px;
+    border-radius:18px;
+    text-align:center;
+    color:#fff;
+}
+nav .user-container ul li{
+    font-size:18px;
+}
+
+.profile-container ul{
+    display: flex;
+    justify-content:center;
+    gap:1.2rem;
+    align-items:center;
+    margin-top:3.1rem;
+    list-style-type: none;
+}
+.bid-container{
+    background:#fff;
+    padding:10px;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.07);
+    min-width:89vw;
+    height:8vh;
+    margin-left:3px;
+}
+.bid-container .bid-items{
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    list-style-type:none;
+    gap:1.9rem;
+    padding-right:1.6rem;
+    padding-top:3.1rem;
+}
+.bid-container .bid-items li{
+    font-size:21px;
+}
+.user-icon{
+    font-size:14px;
+    padding-right:10px;
+}
+.down-icon{
+    font-size:14px;
+    padding-left:10px;
+}
+.bid-container  .bid{
+    width:100px;
+    border-bottom:5px  solid #3ebd93;
+    color: #475569;
+    text-align:center;
+}
+.live-tracking{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:center;
+}
+.search-container{
+    display:flex;
+    flex-direction:row;
+    /* gap:20.5rem; */
+    margin-top:20px;
+}
+ .create-history-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    gap:2.3rem;
+    width:78vw;
+}
+.create-history-container ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width:50vw;
+    list-style-type:none;
+    font-size:29px;
+}
+.create-history-container ul .live{
+    color:darkred;
+
+}
+.create-history-container .search-box{
+        background:transparent;
+        border: 1px solid grey;
+        height:48px;
+        width:280px;
+        border-radius:50px;
+}
+.search-icon{
+    padding-left:18px;
+    font-size:11px;
+}
+input{
+    border-radius:50px;
+    border-width:0px;
+    padding-left:19px;
+    
+}
+input:focus{
+    outline:none;  
+}
+
+.create-box{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    background:transparent;
+    border:1px solid grey;
+    height:58px;
+    width:185px;
+    border-radius:20px;
+    gap:0.9rem;
+}
+.button{
+    background:transparent;
+    border-width:0px;
+}
+
+/* section Updating Live */
+
+
+.updating-live-container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width:78vw;
+    margin-top:5rem;
+}
+
+ .live-counting ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    width:22vw;
+    list-style-type:none; 
+    font-size:19px;
+}
+.live-counting ul .Responsend{
+    color:green;
+}
+.live-counting ul .UnResponsend{
+    color:red;
+}
+
+/* filterd live Count */
+
+.updating-live-container .filter-live-count ul{
+    display:flex;
+    justify-content: column;
+    align-items:center;
+    width:29vw;
+    gap:2.5rem;
+    list-style-type:none;
+    
+}
+.filter-live-count ul .bid-created{
+    font-size:18px;
+}
+.filter-live-count ul .today , .Yestraday{
+    font-size:18px;
+    color:grey;
+}
+ .calender-container{
+    background:#fff;
+    box-shadow:5px 5px 5px rgba(1,1,1,0.09);
+    height:2rem;
+    width:11rem;
+    border-radius:24px;
+    text-align: center;
+ }
+ .calender{
+    color:#475569;
+ }
+
+ /* Tabel  */
+ .xxxx{
+    background:#fff;
+    width:78vw;
+    height:300vh;
+    box-shadow:10px 10px 10px rgba(10,10,10,10);
+ }
+ .tabel-container .table{
+    background:#475569;
+    width:78vw;
+    height:5vh;
+    padding:20px;
+    border-radius:10px;
+    margin-top:4rem;
+    box-shadow:4px 4px 4px rgba(1,1,1,0.09);
+
+ }
+ .table ul{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    color:#fff;
+    list-style-type:none;
+    /* gap:1.2rem; */
+ }
+
+ /* view Detailes Container */
+
+ .view-detailes-container .details-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width:78vw;
+    list-style-type:none;
+    margin-top:1rem;
+ }
+ .green-circle{
+    color:green;
+    font-size:9px;
+ }
+ ul .name{
+    color:grey;
+    margin-top:0.6rem;
+ }
+ .arrow-down{
+    margin:11px;
+ }
+ .view-results{
+    background:transparent;
+    color:#3ebd93;
+    font-weight:bolder;
+    /* font-size:19px; */
+    border-radius:4px;
+    border-width:0px;
+    margin-top:5px;
+
+ }
+
+ /* Vehical info */
+
+ .vehical-info{
+    background:#475569;
+    padding:20px;
+    width:78vw;
+    margin-top:3rem;
+    border-radius:9px;
+ }
+ .vehical-info .staff-info-container ul{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    color:#fff;
+    list-style-type:none;
+ }
+ ul .vehical{
+    display:flex;
+    gap:1.1rem;
+ }
+ .from-city-to-city-container h3,p{
+        color:#fff;
+ }
+ /* destinon Info */
+ .circle{
+    position :absolute;
+    left:24rem;
+    color:green;
+ }
+
+ .destion-info-container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+   margin:1.9rem;
+ }
+.vehical-material-container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:1.3rem;
+}
+ .vehical-type {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    gap: 1.1em;
+ }
+ .Material-container {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    gap: 1.0em;
+ }
+ 
+ .vehical-type p {
+    color:#fff;
+ }
+ .cng{
+    background-color:green;
+    border-radius:4px;
+    color:#fff;
+    padding:5px;
+    margin-left:22px;
+ }
+ .car,.matrial{
+    color:#fff;
+ }
+ .phone-target-container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:1.0rem;
+ }
+ .phone{
+    color:#fff;
+    padding-right:17px;
+ }
+ .phone-number{
+    display: flex;
+ }
+
+
+ /* un Loading Pointr Container */
+
+  .unloading-point-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:2.9rem;
+ }
+ .location{
+    position:absolute;
+    left:24rem;
+    color:red;
+ }
+ .ben{
+    color:#fff;
+ }
+
+ .req-exp {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    gap:1.9rem;
+ }
+ .reqicon,.expicon{
+    padding-right:18px;
+    color:white;
+ }
+ .expiry-name{
+    color: lightblue;
+    font-size:19px;
+ }
+ .request-container{
+    display:flex;
+    justify-content:center;
+   align-items:center;
+   
+ }
+ .exp-container{
+    display:flex;
+    justify-content:center;
+   align-items:center;
+   
+ }
+ .bider-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+ }
+ .down{
+    position:absolute;
+    left:24rem;
+    bottom:14rem;
+    color:#fff;
+    font-size:22px;
+    background-clip: initial;
+    
+ }
+ .view-less-container{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-top:1.1rem;
+ }
+ .view-less{
+    background:transparent;
+    color:blue;
+    border-width:0px;
+    padding-right:12px;
+ }
+ .angle-up{
+    font-size:22px;
+    color:#fff;
+    padding-left:12px;
+ }
+ .passenger-list-container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+ }
+ .line-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+ }
+ .line{
+    display: flex;
+    width:78vw;
+    align-self: center;
+ }
+ .passenger-summery-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin:1.7rem;
+    
+ }
